@@ -1,0 +1,5 @@
+first =  int(input("첫 번쨰 숫자를 입력하세요: "))
+second =  int(input("두 번쨰 숫자를 입력하세요: "))
+third =  int(input("세 번쨰 숫자를 입력하세요: "))
+avg = float((first+second+third)/3)
+print(first,second,third,"의 값은",avg,"입니다")
