@@ -1,0 +1,10 @@
+from tkinter import*
+window = Tk()
+window.geometry("600x100")
+label = Label(window,text = "간단한 GUI 프로그램")
+label.pack()
+button = Button(window, text = "환영합니다.",)
+button.pack()
+button = Button(window, text = "종료",command=window.quit)
+button.pack()
+window.mainloop()
